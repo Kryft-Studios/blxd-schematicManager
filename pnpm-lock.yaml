@@ -1,0 +1,38 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      avsc:
+        specifier: ^5.7.9
+        version: 5.7.9
+      voxel-crunch:
+        specifier: ^0.2.1
+        version: 0.2.1
+
+packages:
+
+  avsc@5.7.9:
+    resolution: {integrity: sha512-yOA4wFeI7ET3v32Di/sUybQ+ttP20JHSW3mxLuNGeO0uD6PPcvLrIQXSvy/rhJOWU5JrYh7U4OHplWMmtAtjMg==}
+    engines: {node: '>=0.11'}
+
+  bit-twiddle@0.0.2:
+    resolution: {integrity: sha512-76iFAOrkcuw5UPA30Pt32XaytMHXz/04JembgIwsQAp7ImHYSWNq1shBbrlWf6CUvh1+amQ81LI8hNhqQgsBEw==}
+
+  voxel-crunch@0.2.1:
+    resolution: {integrity: sha512-VmlrD2M+tiuuxMIXPU4jP2cbT3Tma9pbfdlM2eA7EljQ2k2UUVYLZFw2w75qL0AzbxPWFkznaNackP4Hz9Qd3g==}
+
+snapshots:
+
+  avsc@5.7.9: {}
+
+  bit-twiddle@0.0.2: {}
+
+  voxel-crunch@0.2.1:
+    dependencies:
+      bit-twiddle: 0.0.2

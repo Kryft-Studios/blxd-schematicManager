@@ -1,0 +1,14 @@
+{
+	"name": "bloxd-smgr",
+	"description": "Schematic parser/creator for bloxd",
+	"version": "0.1.0",
+	"main": "BloxdSchematic.js",
+	"type": "module",
+	"dependencies": {
+		"avsc": "^5.7.9",
+		"voxel-crunch": "^0.2.1"
+	},
+	"keywords": ["bloxd", "bloxd.io", "schematic", "avro", "voxel-crunch"],
+	"author": "Kryft Studios",
+	"license":"Apache-2.0"
+}
